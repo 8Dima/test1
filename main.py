@@ -4,9 +4,9 @@ for i in range(10):
 	
 a = 10
 b =15
-c = a+b
 
 for i in range (10):
-	c = a+b 	
-	a, b = b, c
+	c = a+b
+	a = b
+	b = c 
 	print(c)
