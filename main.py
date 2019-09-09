@@ -7,5 +7,6 @@ b =15
 c = a+b
 
 for i in range (10):
-	c = a+b 
+	c = a+b 	
+	a, b = b, c
 	print(c)
