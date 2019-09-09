@@ -7,6 +7,9 @@ b =15
 
 for i in range (10):
 	c = a+b
+	
 	a = b
 	b = c 
-	print(c)
+	
+	print("Число {} равно {}".format(i,c))
+
